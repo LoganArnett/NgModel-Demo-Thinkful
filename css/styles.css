@@ -1,0 +1,29 @@
+/* Custom Styles can go here */
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white; }
+
+header h1 {
+  text-align: center;
+  width: 50%;
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  background: rgba(0, 0, 0, 0.4); }
+
+header img {
+  width: 20%;
+  display: block;
+  margin: 0 auto; }
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  padding-bottom: 5%; }
+  .main h3 {
+    font-size: 2em;
+    margin-bottom: 1%;
+    margin-top: 5%; }

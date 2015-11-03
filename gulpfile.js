@@ -1,10 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     neat = require('node-neat').includePaths,
-    minifyHTML = require('gulp-minify-html'),
     rename = require('gulp-rename'),
-    source = require('vinyl-source-stream'),
-    buffer = require('vinyl-buffer'),
     browserSync = require('browser-sync').create();
 
 
