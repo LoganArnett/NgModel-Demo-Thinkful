@@ -23,7 +23,7 @@
     <div>
       <label>Debounce</label>
       <!-- here we are delaying the update until 1 second after we finish typing -->
-      <input type="text" ng-model="app.header" ng-model-options="{ debounce: { 'default': 1000} }">
+      <input ng-pattern="/^\d+$/" ng-model="app.header" ng-model-options="{ debounce: { 'default': 1000} }">
     </div>
     <hr>
     <div>

@@ -27,3 +27,7 @@ header img {
     font-size: 2em;
     margin-bottom: 1%;
     margin-top: 5%; }
+  .main input:focus.ng-valid {
+    outline: 3px solid rgba(20, 200, 20, 0.9); }
+  .main input.ng-invalid {
+    outline: 3px dashed rgba(200, 20, 20, 0.8); }

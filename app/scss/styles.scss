@@ -33,5 +33,12 @@ header {
     margin-bottom: 1%;
     margin-top: 5%;
   }
-
+  input {
+    &:focus.ng-valid {
+      outline: 3px solid rgba(20, 200, 20, 0.9);
+    }
+    &.ng-invalid {
+      outline: 3px dashed rgba(200, 20, 20, 0.8);
+    }
+  }
 }
